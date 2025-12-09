@@ -5,6 +5,7 @@
 #include <memory>
 #include <map>
 #include <mutex>
+#include <string>
 namespace PSLAM {
     class Edge {
     public:
