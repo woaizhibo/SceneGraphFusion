@@ -62,7 +62,7 @@ git submodule init
 git submodule update
 mkdir build
 cd build
-cmake .. (rm -rf *)
+cmake -DBUILD_GUI=ON .. (rm -rf *)
 make (make -j$(nproc)) (make clean)
 ```
 build with GUI or graph prediction, pass these options in cmake:
